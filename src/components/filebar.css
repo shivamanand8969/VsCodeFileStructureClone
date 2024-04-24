@@ -1,0 +1,51 @@
+.listbox:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.popup{
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    top: 187px;
+    left: 30vw;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color:rgb(51, 51, 190);
+}
+.cross{
+    color: red;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 700;
+   cursor: pointer;
+}
+.maininputbox{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.maininputbox input{
+    border: 1px solid blue;
+    background-color: rgb(70, 67, 67);
+    outline:none;
+    color: white;
+    border-radius: 2px;
+}
